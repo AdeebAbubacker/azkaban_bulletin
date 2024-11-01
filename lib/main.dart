@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
         useInheritedMediaQuery: true,
         builder: (context, child) {
           return MaterialApp.router(
+            debugShowCheckedModeBanner: false,
             title: 'AzkabanBulletin',
             theme: AppThemes.dark, 
             routerConfig:
